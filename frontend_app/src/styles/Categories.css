@@ -1,0 +1,26 @@
+.categories {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 40px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.category-btn {
+    height: 50px;
+    padding: 0 28px;
+    border: none;
+    border-radius: var(--border-radius-md);
+    background-color: var(--color-lighter-gray);
+    color: var(--color-gray);
+    font-family: var(--font-inter);
+    font-size: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.category-btn.active {
+    background-color: var(--color-red);
+    color: var(--color-light);
+    box-shadow: var(--shadow-md);
+}
